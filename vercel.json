@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "public": true,
+    "builds": [
+      { "src": "public/index.html", "use": "@vercel/static" },
+      { "src": "public/script.js", "use": "@vercel/static" }
+    ]
+  }
